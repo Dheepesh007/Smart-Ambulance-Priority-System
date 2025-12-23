@@ -1,12 +1,12 @@
-🚑 Smart Ambulance Priority System
-📌 Project Overview
+🚑 **Smart Ambulance Priority System**
+📌 **Project Overview**
 
 Traffic congestion often delays ambulances, leading to loss of critical time and lives.
 The Smart Ambulance Priority System is designed to automatically give traffic signal priority to an ambulance when it approaches an intersection with its siren ON.
 
 This system detects the ambulance within a specified distance and dynamically controls traffic lights to allow safe and quick passage, then restores normal traffic flow.
 
-🎯 Objectives
+🎯 **Objectives**
 
 Detect an approaching ambulance automatically
 
@@ -18,7 +18,7 @@ Resume normal traffic signal operation after ambulance passes
 
 Minimize manual traffic control intervention
 
-🧠 Working Principle
+🧠 **Working Principle**
 
 Ambulance siren switch turns ON the transmitter system
 
@@ -30,21 +30,21 @@ Signal is sent to traffic signal controller (receiver)
 
 Traffic lights change sequence:
 
-RED → YELLOW → GREEN
+**RED → YELLOW → GREEN
 
 After ambulance passes:
 
-GREEN → YELLOW → RED
+GREEN → YELLOW → RED**
 
 Normal traffic cycle resumes
 
-🧪 Simulation Note (Important)
+🧪 **Simulation Note** 
 
 Due to Tinkercad simulator limitations, real-world 500 meters is scaled down to 50 cm for simulation purposes.
 
 This scaling does not affect real-world implementation.
 
-🧰 Hardware Components
+🧰 **Hardware Components**
 Ambulance Side (Transmitter)
 
 Arduino UNO
@@ -69,7 +69,7 @@ Green LED
 
 Breadboard
 
-💻 Software Used
+💻 **Software Used**
 
 Arduino IDE
 
@@ -77,7 +77,7 @@ Tinkercad Circuits (for simulation)
 
 GitHub (version control & documentation)
 
-📂 Project Folder Structure
+📂 **Project Folder Structure**
 Smart-Ambulance-Priority-System/
 │
 ├── code/
@@ -93,7 +93,7 @@ Smart-Ambulance-Priority-System/
 │
 ├── README.md
 
-⚙️ Algorithm
+⚙️ **Algorithm**
 Transmitter Side
 
 Initialize ultrasonic sensor and siren switch
@@ -118,12 +118,12 @@ Wait for ambulance to pass
 
 Restore normal traffic signal cycle
 
-🔄 Traffic Light Logic
+🔄 **Traffic Light Logic**
 Condition	Signal State
 Normal traffic	RED → GREEN → YELLOW
 Ambulance detected	RED → YELLOW → GREEN
 Ambulance passed	GREEN → YELLOW → RED
-🧪 Testing & Results
+🧪 **Testing & Results**
 
 System correctly detects ambulance presence
 
@@ -133,7 +133,7 @@ No manual intervention required
 
 Normal traffic flow resumes successfully
 
-🚀 Applications
+🚀** Applications**
 
 Emergency vehicle priority systems
 
@@ -143,7 +143,7 @@ Ambulance and fire engine routing
 
 Intelligent transportation systems
 
-🌱 Future Enhancements
+🌱 **Future Enhancements**
 
 Replace ultrasonic sensor with GPS
 
@@ -155,11 +155,11 @@ Multiple ambulance handling
 
 Real-time cloud monitoring
 
-📜 License
+📜 **License**
 
 This project is developed for academic purposes.
 
-⭐ Acknowledgements
+⭐ **Acknowledgements**
 
 Arduino community
 
