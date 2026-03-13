@@ -1,0 +1,61 @@
+SMART AMBULANCE PRIORITY SYSTEM
+
+==============================
+Simulation Requirements
+==============================
+
+Platform:
+Autodesk Tinkercad Circuits
+
+Components Used in Simulation:
+Arduino Uno
+Ultrasonic Sensor (HC-SR04)
+16x2 LCD Display
+Red LED (Traffic Signal)
+Yellow LED (Traffic Signal)
+Green LED (Traffic Signal)
+Breadboard
+Resistors (220Ω)
+Jumper Wires
+
+Software:
+Arduino IDE
+Embedded C/C++
+Autodesk Tinkercad Circuits
+GitHub
+
+==============================
+Real-Life Hardware Requirements
+==============================
+
+Microcontroller:
+Arduino Uno
+
+Sensors:
+Ultrasonic Sensor HC-SR04
+
+Communication Module:
+LoRa Module (SX1278 / Ra-02)
+
+Display:
+16x2 LCD Display
+
+Traffic Signal Indicators:
+Red LED
+Yellow LED
+Green LED
+
+Circuit Components:
+Breadboard
+Resistors (220Ω)
+Jumper Wires
+Power Supply (5V)
+
+==============================
+Optional Future Enhancements
+==============================
+
+GPS Module for Ambulance Tracking
+Cloud IoT Platform
+Mobile Application for Traffic Monitoring
+AI-based Traffic Prediction System
